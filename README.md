@@ -177,10 +177,6 @@ The FeastIT platform uses a robust relational database design to manage customer
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- Your Name - Initial work
-
 ## 🙏 Acknowledgments
 
 - React.js community
