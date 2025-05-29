@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../assets/css/Sidebar.css";
-import MessagePopup from "../components/MessagePopup"; // ✅ Import Popup
+import MessagePopup from "./MessagePopup"; // ✅ Import Popup
 
 function Sidebar() {
   const navigate = useNavigate();
@@ -13,15 +13,10 @@ function Sidebar() {
   
     // Close the confirm modal
     setShowLogoutConfirm(false);
-  
-    // // Show popup
-    // setPopup({ visible: true, type: "success", message: "Logged out successfully!" });
-  
-    // After a short delay, redirect
+
+
     navigate("/adminLogin");
-    // setTimeout(() => {
-  
-    // }, 1500);
+
   };
   
 
