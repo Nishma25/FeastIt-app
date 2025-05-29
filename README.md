@@ -163,15 +163,15 @@ python server.py
 
 ## 📊 Database Schema
 
-The application uses a comprehensive database schema with the following main entities:
-- Customers
-- Vendors
-- Menu Items
-- Orders
-- Reviews
-- Analytics
+The FeastIT platform uses a robust relational database design to manage customers, vendors, orders, menu items, reviews, analytics, and more. Below is the Entity Relationship Diagram (ERD) illustrating the structure and relationships between the main tables:
 
+![FeastIT Database Schema](assets/db-schema.png)
 
+**Key Points:**
+- The schema includes tables for users (customers, vendors, admin), menu items, orders, reviews, feedback, analytics, and special offers.
+- Foreign key relationships enforce data integrity and connect related records.
+- Support for advanced features like order status history, feedback reports, and vendor review queues.
+- Designed for scalability, security, and efficient querying.
 
 ## 📝 License
 
